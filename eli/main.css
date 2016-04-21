@@ -1,0 +1,27 @@
+*{
+	outline:1px solid rgba(255,0,0,0.3);
+} 
+#siguenos{ /* Tipo de Letra para siguenos*/
+	font-family: OpenSans-Regular;
+	src: url(../fonts/Open/OpenSans-Regular.ttf);
+}
+#siguenos img{
+	width: 25px;
+	height: 25px;
+}
+#footer{ /* Tipo de Letra para el pie de página*/
+	font-family: OpenSans-Regular;
+	src: url(../fonts/Open/OpenSans-Regular.ttf);
+}
+.font-size-12{ /* Tamaño de letra*/
+	font-size: 12px;
+}
+.display-ib{/* Para alinear bloques en una linea*/
+	display: inline-block;
+}
+.text-gray-dark{/* Color de letra de pie de página*/
+	color: #A4A4A4;
+}
+.brd-white{
+	border: 1px solid #F2F2F2;
+}
