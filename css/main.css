@@ -1,20 +1,42 @@
-<<<<<<< HEAD
-h3{
-	text-align: center;
-}
-p{
-	text-align: center;
-}
 .Mision{
 	margin: auto;
 }
 .Vision{
 	margin: auto;
 }
-=======
-/* Inserta tu codigo aqui */
-<<<<<<< HEAD
->>>>>>> bb5ab701cc229955ad8dc8fd9253d11d84d2a9f0
-=======
->>>>>>> bb5ab701cc229955ad8dc8fd9253d11d84d2a9f0
->>>>>>> d365971c7db8d6c58a9f375d6be4051951941983
+.equipo2{
+	border-radius: 50%;
+	margin-top:20px;
+	height: 200px;
+	width: 200px;
+}
+.equipo3{
+	border-radius: 50%;
+	margin-top:50px;
+	height: 200px;
+	width: 200px;
+}
+.equipo{
+	text-align: left;
+	color:#21610B;
+}
+.redsocial{
+	height: 20px;
+	width: 20px;
+}
+.metodo{
+	background-image: url(../img/metodo.jpg);
+	background-size: cover;
+	height: 300px;
+	padding: 0;
+}
+.metodologia{
+	padding: 15px 10px 10px 10px;
+	background-image: url(../img/fondo.jpg);
+	height: 300px;
+}
+.texto-metodo{
+	color: white;
+	text-align: center;
+	padding: 20px;
+}
