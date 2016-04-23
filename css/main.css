@@ -1,42 +1,98 @@
-.Mision{
+﻿/**{
+	outline:1px solid rgba(255,0,0,0.3);
+}*/
+body{
+	font-family: OpenSans-Regular;
+	src: url(../fonts/Open/OpenSans-Regular.ttf);
+}
+.head{ /* Tipo de Letra para el head*/
+	background-color: #fff; 
+	position: fixed; /*"fixed"aunque se desplace el documento con las barras de desplazamiento del navegador, siempre aparecerá en la misma posición.*/
+	width: 100%;
+	height: 100px;
+}
+.text-decoration-none{
+	text-decoration: none;
+}
+.logo{/*--->Para el logo un tamao definido*/
+	max-width: 50%;
+}
+.lista-sin-estilo{/*--->Para todas las listas sin estilo*/
+	list-style-type: none;
+	padding: 0;
+    margin: 0;
+}
+.lista-sin-estilo li{
+    display: inline-block;    
+}
+.lista-sin-estilo li a{
+	border-right:1px solid #6E6E6E;
+	padding: 0 30px;
+}
+.lista-sin-estilo a:last-child{
+	border-right: none;
+}
+.text-grey{/*--->Para definir texto de color gris*/
+	color: #6E6E6E;
+}
+.display-ib{/*--->Para colocar todos los bloques en linea*/
+	display: inline-block;
+}
+.pt-3{
+	padding-top: 3%;
+}
+.pb-3{
+	padding-bottom: 3%;
+}
+.pl-3{
+	padding-left: 3%;
+}
+.portada{
+	height: 500px; 
+	background-image: url('../img/semilla.jpg');
+	background-size: cover;
+	background-position: center;
+}
+.font-size-12{
+	font-size: 12px;
+}
+.font-size-14{
+	font-size: 14px;
+}
+#nosotros img{
 	margin: auto;
 }
-.Vision{
-	margin: auto;
+.pd-3{
+	padding: 3%;
 }
-.equipo2{
-	border-radius: 50%;
-	margin-top:20px;
-	height: 200px;
-	width: 200px;
-}
-.equipo3{
-	border-radius: 50%;
-	margin-top:50px;
-	height: 200px;
-	width: 200px;
-}
-.equipo{
-	text-align: left;
-	color:#21610B;
-}
-.redsocial{
-	height: 20px;
-	width: 20px;
-}
-.metodo{
+.bg-metodologia-img{
 	background-image: url(../img/metodo.jpg);
 	background-size: cover;
 	height: 300px;
-	padding: 0;
 }
-.metodologia{
-	padding: 15px 10px 10px 10px;
+.bg-metodologia-color{
 	background-image: url(../img/fondo.jpg);
 	height: 300px;
 }
-.texto-metodo{
-	color: white;
-	text-align: center;
-	padding: 20px;
+.redsocial{
+	height: 25px;
+	width: 25px;
+}
+.equipo-img{
+	border-radius: 100%;
+	height: 200px;
+	width: 200px;
+}
+#equipo a{
+	text-decoration: none;
+}
+#siguenos img{
+	width: 25px;
+	height: 25px;
+}
+.text-gray-dark{/* Color de letra de pie de página*/
+	color: #A4A4A4;
+}
+.brd-white{
+	border: 1px solid #F2F2F2;
 }
