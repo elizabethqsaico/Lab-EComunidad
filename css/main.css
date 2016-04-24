@@ -1,6 +1,6 @@
-﻿/**{
+*{
 	outline:1px solid rgba(255,0,0,0.3);
-}*/
+}
 body{
 	font-family: OpenSans-Regular;
 	src: url(../fonts/Open/OpenSans-Regular.ttf);
@@ -65,14 +65,27 @@ body{
 .pd-3{
 	padding: 3%;
 }
+.height-200{
+	height: 200px;
+}
+.height-350{
+	height: 350px;
+}
+#blogs img{
+	max-width: 25%;
+}
+.bg-position-center{
+	background-position: center;
+}
 .bg-metodologia-img{
 	background-image: url(../img/metodo.jpg);
 	background-size: cover;
-	height: 300px;
 }
 .bg-metodologia-color{
 	background-image: url(../img/fondo.jpg);
-	height: 300px;
+}
+.bg-blogs{
+	background-image: url(../img/fondo2.jpg);
 }
 .redsocial{
 	height: 25px;
@@ -87,8 +100,12 @@ body{
 	text-decoration: none;
 }
 #siguenos img{
-	width: 25px;
-	height: 25px;
+	max-width: 25px;
+}
+.position-icons{
+	position: relative;
+	top: 140px;
+	left: 100px;
 }
 .text-gray-dark{/* Color de letra de pie de página*/
 	color: #A4A4A4;
