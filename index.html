@@ -3,6 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Ecomunidad</title>
+	<link rel="stylesheet" type="text/css" href="section-blogs/engine1/style.css" />
+	<script type="text/javascript" src="section-blogs/engine1/jquery.js"></script>
 	<link rel="stylesheet" href="css/grid-system.css">
 	<link rel="stylesheet" href="css/utilities.css">
 	<link rel="stylesheet" href="css/main.css">
@@ -20,7 +22,7 @@
 							<li><a class="text-decoration-none text-grey text-center" href="#nosotros">Nosotros</a></li>
 							<li><a class="text-decoration-none text-grey text-center" href="#servicios">Servicios</a></li>
 							<li><a class="text-decoration-none text-grey text-center" href="#proyectos">Proyectos</a></li>
-							<li><a class="text-decoration-none text-grey text-center" href="#equipos">Equipos</a></li>
+							<li><a class="text-decoration-none text-grey text-center" href="#equipo">Equipos</a></li>
 							<li><a class="text-decoration-none text-grey text-center" href="#blogs">Blogs</a></li>
 							<li><a class="text-decoration-none text-grey text-center" href="#siguenos">Síguenos</a></li>
 						</ul>
@@ -44,21 +46,21 @@
 		</div>
 	</section><!-- Fin Portada -->
 	<section id="nosotros"><!-- Inicio Nosotros-->
-		<div class="row text-center mg-0 pt-5 pb-5"><!-- Inicio Mision y Vision -->
-			<div class="col-6"><!-- Inicio Mision -->
-				<div class="pd-3">
-					<img src="img/iconos/mision/mision.png">
-					<h3>Misión</h3>
-					<p class="text-grey font-size-14">Lorem ipsum dolor sit amet consectetur adipisicing elit. At distinctio quia, et natus nulla cumque consequuntur, sed, quam aliquam excepturi ea necessitatibus.</p>
-				</div>
-			</div><!-- Fin Mision -->
-			<div class="col-6"><!-- Inicio Vision -->
-				<div class="pd-3">
-					<img src="img/iconos/mision/vision.png">
-					<h3>Visión</h3>
-					<p class="text-grey font-size-12">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates veniam optio, fugit eligendi nesciunt architecto illo, temporibus recusandae deserunt necessitatibus distinctio ad possimus.</p>
-				</div>
-			</div><!-- Fin Vision -->
+		<div class="row text-center mg-0 pt-3"><!-- Inicio Mision y Vision -->
+			<div class="col-12">
+				<ul>
+					<li class="nosotros-icons pd-3">
+						<img src="img/iconos/mision/mision.png">
+						<h3>Misión</h3>
+						<p class="text-grey font-size-12">Lorem ipsum dolor sit amet consectetur adipisicing elit. At distinctio quia, et natus nulla cumque consequuntur, sed, quam aliquam excepturi ea necessitatibus.</p>
+					</li>
+					<li class="nosotros-icons pd-3">
+						<img src="img/iconos/mision/vision.png">
+						<h3>Visión</h3>
+						<p class="text-grey font-size-12">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates veniam optio, fugit eligendi nesciunt architecto illo, temporibus recusandae deserunt necessitatibus distinctio ad possimus.</p>
+					</li>
+				</ul>
+			</div>
 		</div><!-- Fin Mision y Vision -->
 		<div class="row text-center text-gray mg-0"><!-- Inicio Metodologia -->
 			<div class="col-6 bg-metodologia-img height-350 bg-position-center"></div><!-- Imagen Metodolgia -->
@@ -71,63 +73,157 @@
 			</div>
 		</div><!-- Fin Metodologia -->
 	</section><!-- Fin Nosotros-->
-	<section id="#servicios"><!-- Inicio Servicios -->		
-	</section><!-- Fin Servicios -->
-	<section id="#proyectos"><!-- Inicio Proyectos -->		
-	</section><!-- Fin Proyectos -->
-	<section id="#equipo"><!-- Inicio Equipo -->
+	<section id="servicios"><!-- Inicio Servicios -->
 		<div class="row text-center mg-0">
-			<h1 class="text-green text-left pt-3 pl-3">Equipo</h1>
-			<div class="col-6">
-				<div class="pd-5-10">			
-					<img class="equipo-img pb-3" src="img/fotos/equipo2.jpg">
-					<h3>Camila Basurco</h3>
-					<h6>Cargo desempeñado</h6>
-					<p class="font-size-14 text-grey">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos temporibus ipsum quam ab accusantium quis perferendis iusto ut fugit est, aliquid dolorum!</p>
-					<div class="pd-3">
-						<div class="pl-3 display-ib"><a href="#"><img src="img/iconos/redes-sociales/twitter.png" class="redsocial"></a></div>
-						<div class="pl-3 display-ib"><a href="·"><img src="img/iconos/redes-sociales/in.png" class="redsocial"></a></div>
-						<div class="pl-3 display-ib"><a href="#"><img src="img/iconos/redes-sociales/mensaje.png" class="redsocial"></a></div>
-					</div>
-				</div>	
+			<div class="col-12">
+				<h3 class="text-black pt-3">Servicios</h3>
+				<p class="text-gray-dark font-size-12 pt-3 pb-3 pd-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+			</div> 
+		</div>
+		<div class="row text-center mg-0">
+			<div class="col-12">
+				<ul>	
+					<li class="servicios-icons pd-3">
+						<a href="#"> <img src="img/iconos/servicios-icon/educacion.png"></a>
+						<h3 class="text-green">Educación para el desarrollo sostenible</h3>
+						<p class="text-gray-dark font-size-12">Se preocupa por el bienestar de las cuatro dimensiones de la sostenibilidad: el medio ambiente, la sociedad, la cultura y la economía.</p>
+					</li>
+					<li class="servicios-icons pd-3">
+						<a href="#"><img src="img/iconos/servicios-icon/mitigacion.png"></a>
+						<h3 class="text-green">Mitigación para el cambio clímatico</h3>
+						<p class="text-gray-dark font-size-12">Es la acción que consiste en disminuir la intensidad del forzante radiativo con el fin de reducir el calentamiento global</p>
+					</li>
+					<li class="servicios-icons pd-3">
+						<a href="#"><img src="img/iconos/servicios-icon/bienestar.png"></a>
+						<h3 class="text-green">Bienestar ocupacional</h3>
+						<p class="text-gray-dark font-size-12">Conjunto de actividades asociado a disciplinas, cuyo objetivo es la promoción y mantenimiento del bienestar físico. </p>
+					</li>							
+					<li class="servicios-icons pd-3">
+						<a href="#"><img src="img/iconos/servicios-icon/seguridad-icon.png"></a>
+						<h3 class="text-green">Consultorías en seguridad industrial y Medio Ambiente</h3>
+						<p class="text-gray-dark font-size-12">Encargada de implementar la seguridad en los sectores laborales, con el propósito de administrar los riesgos asociados a éstos</p>
+					</li>
+					<li class="servicios-icons pd-3">
+						<a href="#"><img src="img/iconos/servicios-icon/manejo-de-agua.png"></a>
+						<h3 class="text-green">Manejo de aguas</h3>
+						<p class="text-gray-dark font-size-12">Enfoque integral, holístico a la gestión moderna del agua y tomando una posición de liderazgo en el suministro de agua en general  . </p>
+					</li>					
+					<li class="servicios-icons pd-3">
+						<a href="#"><img src="img/iconos/servicios-icon/agricultura-icon.png"></a>
+						<h3 class="text-green">Agrícultura</h3>
+						<p class="text-gray-dark font-size-12">Conjunto de técnicas y conocimientos para cultivar la tierra</p>
+					</li>
+				</ul>
 			</div>
-			<div class="col-6">
-				<div class="pd-5-10">
-					<img class="equipo-img pb-3" src="img/fotos/equipo3.jpg">
-					<h3>Gabriela Bertocci</h3>
-					<h6>Cargo desempeñado</h6>
-					<p class="font-size-14 text-grey">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos temporibus ipsum quam ab accusantium quis perferendis iusto ut fugit est, aliquid dolorum!</p>
-					<div class="pd-3">
-						<div class="pl-3 display-ib"><a href="#"><img src="img/iconos/redes-sociales/twitter.png" class="redsocial"></a></div>
-						<div class="pl-3 display-ib"><a href="·"><img src="img/iconos/redes-sociales/in.png" class="redsocial"></a></div>
-						<div class="pl-3 display-ib"><a href="#"><img src="img/iconos/redes-sociales/mensaje.png" class="redsocial"></a></div>
+		</div>
+	</section><!-- Fin Servicios -->
+	<section id="proyectos"><!-- Inicio Proyectos -->
+		<div class="row mg-0 bg-green">
+			<div class="col-12">
+				<h1 class="text-white pl-3 pt-3 pb-3">Proyectos</h1>
+				<div class="row text-center">
+					<div class="col-6">
+						<img src="img/fotos/img-0352.jpg">
+					</div>
+					<div class="col-6 pd-3 brd-white">
+						<div class="text-white pd-3">
+								<h3>Nombre del Proyecto 1</h3>
+								<h5>Nombre de Distrito</h5>
+								<p class="font-size-12">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+							</div>
 					</div>
 				</div>
+				<div class="row text-center">
+					<div class="col-6">
+						<img src="img/fotos/img-9246.jpg">
+					</div>
+					<div class="col-6 pd-3 brd-white">
+						<div class="text-white pd-3">
+								<h3>Nombre del Proyecto 2</h3>
+								<h5>Nombre de Distrito</h5>
+								<p class="font-size-12">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+							</div>
+					</div>
+				</div>
+			</div>
+		</div>		
+	</section><!-- Fin Proyectos -->
+	<section id="equipo"><!-- Inicio Equipo -->
+		<div class="row text-center mg-0">
+			<div class="col-12">
+				<h1 class="text-green text-left pt-3 pl-3">Equipo</h1>
+			</div>
+		</div>
+		<div class="row text-center mg-0">
+			<div class="col-12"> 
+				<ul>	
+					<li class="equipo-icons pd-3">
+						<a href="#"><img class="equipo-img pb-3" src="img/fotos/equipo2.jpg"></a>
+						<h3>Camila Basurco</h3>
+						<h6>Cargo desempeñado</h6>
+						<p class="font-size-14 text-grey">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos temporibus ipsum quam ab accusantium quis perferendis iusto ut fugit est, aliquid dolorum!</p>
+						<div class="pd-3">
+							<div class="pl-3 display-ib"><a href="#"><img src="img/iconos/redes-sociales/twitter.png" class="redsocial"></a></div>
+							<div class="pl-3 display-ib"><a href="·"><img src="img/iconos/redes-sociales/in.png" class="redsocial"></a></div>
+							<div class="pl-3 display-ib"><a href="#"><img src="img/iconos/redes-sociales/mensaje.png" class="redsocial"></a></div>
+						</div>
+					</li>
+					<li class="equipo-icons pd-3">
+						<a href="#"><img class="equipo-img pb-3" src="img/fotos/equipo3.jpg"></a>						
+						<h3>Gabriela Bertocci</h3>
+						<h6>Cargo desempeñado</h6>
+						<p class="font-size-14 text-grey">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos temporibus ipsum quam ab accusantium quis perferendis iusto ut fugit est, aliquid dolorum!</p>
+						<div class="pd-3">
+							<div class="pl-3 display-ib"><a href="#"><img src="img/iconos/redes-sociales/twitter.png" class="redsocial"></a></div>
+							<div class="pl-3 display-ib"><a href="·"><img src="img/iconos/redes-sociales/in.png" class="redsocial"></a></div>
+							<div class="pl-3 display-ib"><a href="#"><img src="img/iconos/redes-sociales/mensaje.png" class="redsocial"></a></div>
+						</div>
+					</li>
+				</ul>
 			</div>
 		</div>
 	</section><!-- Fin Equipo -->
 	<section id="blogs"><!-- Inicio Blogs -->
 		<div class="row mg-0">
-			<div class="col-12 bg-blogs bg-position-center">
-				<h1 class="text-black pt-3 pl-3">Blog</h1>
-				<div class="pd-3 display-ib">
-					<img src="img/fotos/img-0400.jpg">
-					<h3>Titulo del Post</h3>
-					<h6>01.Ene.2015</h6>
-					<p class="font-size-14 text-grey">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos temporibus ipsum quam ab accusantium quis perferendis iusto ut fugit est, aliquid dolorum!</p>
+			<div class="col-12 bg-blogs bg-position-center pd-3 position-r">
+				<h1 class="text-black pl-3">Blog</h1>
+				<div id="wowslider-container1">
+				<div class="ws_images">
+					<ul>
+						<li>
+						<a href="#post1"><img src="section-blogs/data1/images/img_0334.jpg" alt="Post 1" title="Post 1 01.Ene.2015" id="wows1_0"/></a>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos temporibus ipsum quam ab accusantium quis perferendis iusto ut fugit est, aliquid dolorum!
+						</li>
+						<li>
+						<a href="#post2"><img src="section-blogs/data1/images/img_0372.jpg" alt="Post 2" title="Post 2 31.Dic.2014" id="wows1_1"/></a>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos temporibus ipsum quam ab accusantium quis perferendis iusto ut fugit est, aliquid dolorum!
+						</li>
+						<li>
+						<a href="#post3"><img src="section-blogs/data1/images/img0352.jpg" alt="Post 3" title="Post 3 30.EDic.2014" id="wows1_2"/></a>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos temporibus ipsum quam ab accusantium quis perferendis iusto ut fugit est, aliquid dolorum!
+						</li>
+						<li><a href="#post4"><img src="section-blogs/data1/images/img0400.jpg" alt="Post 4" title="Post 4 01.Ene.2015" id="wows1_3"/></a>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos temporibus ipsum quam ab accusantium quis perferendis iusto ut fugit est, aliquid dolorum!
+						</li>
+						<li>
+						<a href="#post5"><img src="section-blogs/data1/images/img9246.jpg" alt="Post 5" title="Post 5 31.Dic.2014" id="wows1_4"/></a>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos temporibus ipsum quam ab accusantium quis perferendis iusto ut fugit est, aliquid dolorum!
+						</li>
+					</ul>
 				</div>
-				<!--<div class="display-ib">
-					<img src="img/fotos/img-9246.jpg">
-					<h3>Titulo del Post 2</h3>
-					<h6>31.Dic.2014</h6>
-					<p class="font-size-14 text-grey">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos temporibus ipsum quam ab accusantium quis perferendis iusto ut fugit est, aliquid dolorum!</p>
+				<div class="ws_bullets">
+					<div>
+						<a href="#wows1_0" title="IMG_0334"><span><img src="section-blogs/data1/tooltips/img_0334.jpg" alt="IMG_0334"/>1</span></a>
+						<a href="#wows1_1" title="IMG_0372"><span><img src="section-blogs/data1/tooltips/img_0372.jpg" alt="IMG_0372"/>2</span></a>
+						<a href="#wows1_2" title="img-0352"><span><img src="section-blogs/data1/tooltips/img0352.jpg" alt="img-0352"/>3</span></a>
+						<a href="#wows1_3" title="img-0400"><span><img src="section-blogs/data1/tooltips/img0400.jpg" alt="img-0400"/>4</span></a>
+						<a href="#wows1_4" title="img-9246"><span><img src="section-blogs/data1/tooltips/img9246.jpg" alt="img-9246"/>5</span></a>
+					</div>
 				</div>
-				<div class="display-ib">
-					<img src="img/fotos/img-0400.jpg">
-					<h3>Titulo del Post</h3>
-					<h6>01.Ene.2015</h6>
-					<p class="font-size-14 text-grey">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos temporibus ipsum quam ab accusantium quis perferendis iusto ut fugit est, aliquid dolorum!</p>
-				</div> -->
+				<div class="ws_shadow"></div>
+				</div>	
+				<script type="text/javascript" src="section-blogs/engine1/wowslider.js"></script>
+				<script type="text/javascript" src="section-blogs/engine1/script.js"></script>
 			</div>
 		</div>
 	</section><!-- Fin Blogs -->

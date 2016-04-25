@@ -1,12 +1,13 @@
-*{
+/**{
 	outline:1px solid rgba(255,0,0,0.3);
-}
+}*/
 body{
 	font-family: OpenSans-Regular;
 	src: url(../fonts/Open/OpenSans-Regular.ttf);
 }
 .head{ /* Tipo de Letra para el head*/
 	background-color: #fff; 
+	opacity: 0.8;
 	position: fixed; /*"fixed"aunque se desplace el documento con las barras de desplazamiento del navegador, siempre aparecerá en la misma posición.*/
 	width: 100%;
 	height: 100px;
@@ -62,6 +63,12 @@ body{
 #nosotros img{
 	margin: auto;
 }
+#proyectos img{
+	max-width: 50%;
+}
+.width-50{
+	width: 150px;
+}
 .pd-3{
 	padding: 3%;
 }
@@ -71,8 +78,8 @@ body{
 .height-350{
 	height: 350px;
 }
-#blogs img{
-	max-width: 25%;
+.height-400{
+	height: 400px;
 }
 .bg-position-center{
 	background-position: center;
@@ -112,4 +119,22 @@ body{
 }
 .brd-white{
 	border: 1px solid #F2F2F2;
+}
+.position-r{
+	position: relative;
+}
+.servicios-icons{
+	width: 25%;
+	display: inline-block;
+	vertical-align: top;
+}
+.equipo-icons{
+	width: 45%;
+	display: inline-block;
+	vertical-align: top;
+}
+.nosotros-icons{
+	width: 45%;
+	display: inline-block;
+	vertical-align: top;
 }
