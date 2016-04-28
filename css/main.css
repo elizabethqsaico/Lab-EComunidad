@@ -6,7 +6,7 @@ body{
 	src: url(../fonts/Open/OpenSans-Regular.ttf);
 }
 .head{ /* Tipo de Letra para el head*/
-	background-color: #fff; 
+	background-color: #DAFF7F; 
 	opacity: 0.8;
 	position: fixed; /*"fixed"aunque se desplace el documento con las barras de desplazamiento del navegador, siempre aparecerá en la misma posición.*/
 	width: 100%;
@@ -123,6 +123,12 @@ body{
 .position-r{
 	position: relative;
 }
+.bg-proyectos:hover{
+	background: #000;
+	opacity: 0.3;
+	color: #000;
+	border: 1px solid #000;
+}
 .servicios-icons{
 	width: 25%;
 	display: inline-block;
@@ -137,4 +143,60 @@ body{
 	width: 45%;
 	display: inline-block;
 	vertical-align: top;
+}
+header li:hover {
+	background: rgba(0,0,0,0);
+	color: #3a7999;
+	box-shadow: inset 0 0 0 1px #3a7999;
+}
+
+.nosotros-icons:hover{
+	border: 1px solid #0B173B;
+	border-radius: 10%;
+	-webkit-transform: rotate(10deg) scale(0.8);
+	transform: rotate(10deg) scale(0.8);
+	-webkit-transition: .2s ease-in-out;
+	transition: .2s ease-in-out;
+}
+.servicios-icons:hover{
+	border: 1px solid #0B173B;
+	border-radius: 10%;
+	-webkit-transform: rotate(-10deg) scale(0.8);
+	transform: rotate(-10deg) scale(0.8);
+	-webkit-transition: .2s ease-in-out;
+	transition: .2s ease-in-out;
+}
+.equipo-icons div:hover{
+  -webkit-animation: 1s bounce 1;
+}
+.equipo-icons:hover{
+  -webkit-animation: 1s bounce 1;
+}
+
+
+@keyframes bounce {
+	0%{
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+	20%{
+		-webkit-transform: translateY(-5px);
+		transform: translateY(-5px);
+	}
+	40% {
+		-webkit-transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+	60%{
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+	80% {
+		-webkit-transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+	100%{
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
 }
